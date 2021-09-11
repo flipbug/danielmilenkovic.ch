@@ -230,7 +230,7 @@ table td { border: 1px solid #404040; }
 
 .site-title, .site-title:visited { color: #eeeeee; }
 
-.site-nav { position: absolute; top: 40px; right: 15px; background-color: #eeeeee; border: none; border-radius: 5px; text-align: right; }
+.site-nav { position: absolute; top: 40px; right: 15px; background-color: #404040; border: none; border-radius: 5px; text-align: right; }
 
 .site-nav .nav-trigger { display: none; }
 
