@@ -230,13 +230,13 @@ table td { border: 1px solid #404040; }
 
 .site-title, .site-title:visited { color: #eeeeee; }
 
-.site-nav { position: absolute; top: 9px; right: 15px; background-color: #181a1b; border: 1px solid #404040; border-radius: 5px; text-align: right; }
+.site-nav { position: absolute; top: 40px; right: 15px; background-color: #eeeeee; border: none; border-radius: 5px; text-align: right; }
 
 .site-nav .nav-trigger { display: none; }
 
 .site-nav .menu-icon { float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
 
-.site-nav .menu-icon > svg path { fill: #999999; }
+.site-nav .menu-icon > svg path { fill: #eeeeee; }
 
 .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
 
@@ -349,6 +349,6 @@ h1, h2, h3, h4, h5 { font-family: 'geomanistregular', sans-serif; font-weight: b
 
 .two-images img { max-height: 550px; }
 
-.post-content a, .read-more, footer a { color: #e66800 !important; }
+.post-content a, .read-more, footer a { color: #ff6123 !important; }
 
 /*# sourceMappingURL=style.css.map */
