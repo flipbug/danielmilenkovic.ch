@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning to draw"
 date:   2021-09-10 16:34:16 +0200
-categories: jekyll update
+categories: blog
 ---
 
 I rediscovered my passion for art in the end of 2020. I was quite involved creating art of various kinds in my mid teens, ranging from pencil drawings to 3D. But as life progressed further I put my focus on other things and didn't really do anything drawing related for over ten years. As 2020 happened, it really forced me as many others to slow down and gave me the opportunity to reevaluate my life.
