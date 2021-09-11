@@ -26,19 +26,21 @@
                             Email</a>
                     </li>
                     {%- endif %}
+
+                    <li>
+                        <a href="{{ 'feed.xml' | relative_url }}">
+                            <svg class="svg-icon grey">
+                                <use xlink:href="#rss">
+                                </use>
+                            </svg>
+                            RSS
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-col">
                 <p>{{ site.description }}</p>
 
-                <p> <a href="{{ 'feed.xml' | relative_url }}">
-                        <svg class="svg-icon grey">
-                            <use xlink:href="#rss">
-                            </use>
-                        </svg>
-                        RSS feed
-                    </a>
-                </p>
 
             </div>
         </div>
