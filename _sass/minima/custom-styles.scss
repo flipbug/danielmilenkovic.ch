@@ -1,0 +1,47 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.site-title {
+    font-family: 'geomanistregular', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.site-nav {
+    font-family: 'geomanistregular', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'geomanistregular', sans-serif;
+    font-weight: bold;
+
+}
+
+.post-link, .post-title {
+    font-size: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .two-images img {
+      max-height: 550px;
+  }
+
+  .post-content a, .read-more{
+      color: #e66800 !important;
+  }
