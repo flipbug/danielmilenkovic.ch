@@ -5,7 +5,7 @@ date:   2021-09-13 12:34:16 +0200
 categories: blog
 ---
 
-I recently got very frustrated while drawing. The drawing is based on a mental image with the intention to turn it into a fully finished piece. So I've already set the expectations quite high and during the drawing process felt like I couldn't meet these expectations. This led to an endless cycle of making changes, being frustrated with these changes and making even more changes. In hindsight it is obvious that I was being too harsh with myself. 
+I recently got very frustrated while drawing. The drawing is based on a mental image with the intention to turn it into a fully finished piece. So I've already set the expectations quite high, but during the drawing process I felt like I couldn't meet these expectations. This led to an endless cycle of making changes, being frustrated with these changes and making even more changes. In hindsight it is obvious that I was being too harsh with myself. 
 
 I was attempting a drawing containing subjects I have never really drawn before. So why did I expect to get a perfect result on my first try? Of course every drawing has parts that I haven't really drawn before, but there is a difference in things that are new but similar or completely new. I guess after drawing for years everything gets kinda similar, since the basic shapes are all the same, but I am not there yet.
 
