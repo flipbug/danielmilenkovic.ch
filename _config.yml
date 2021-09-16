@@ -23,7 +23,7 @@ email: danielmilenkovic@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about art and my journey on finding my authentic self.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danielmilenkovic.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 name: Daniel Milenkovic
