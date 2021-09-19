@@ -3,6 +3,7 @@ layout: post
 title:  "Deliberate practice"
 date:   2021-09-13 12:34:16 +0200
 categories: blog
+tags: learning, drawing, life
 ---
 
 I recently got very frustrated while drawing. The drawing is based on a mental image with the intention to turn it into a fully finished piece. So I've already set the expectations quite high, but during the drawing process I felt like I couldn't meet these expectations. This led to an endless cycle of making changes, being frustrated with these changes and making even more changes. In hindsight it is obvious that I was being too harsh with myself. 
