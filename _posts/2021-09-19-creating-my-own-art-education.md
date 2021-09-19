@@ -21,7 +21,7 @@ The other two drawings were drawn from imagination. I remember wanting to create
         {% include image.html url="/assets/images/IMG_20210919_120750-min.jpg" description="Doctor Doom, ca. 2009" %}
     </div>
     <div class='column'>
-        {% include image.html url="/assets/images/IMG_20210919_120803-min.jpg" description="Hulk, ca. 2009" %}
+        {% include image.html url="/assets/images/IMG_20210919_120803-min.jpg" description="I really struggled drawing the eyes, in the end I simply left them blank, ca. 2009" %}
     </div>
 </div>
 
