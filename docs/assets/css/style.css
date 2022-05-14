@@ -335,11 +335,11 @@ table td { border: 1px solid #404040; }
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
 
-.site-title { font-family: 'geomanistregular', sans-serif; font-weight: normal; letter-spacing: 1px; }
+.site-title { font-family: "geomanistregular", sans-serif; font-weight: normal; letter-spacing: 1px; }
 
-.site-nav { font-family: 'geomanistregular', sans-serif; font-weight: 400; font-size: 1.25rem; }
+.site-nav { font-family: "geomanistregular", sans-serif; font-weight: 400; font-size: 1.25rem; }
 
-h1, h2, h3, h4, h5 { font-family: 'geomanistregular', sans-serif; font-weight: bold; }
+h1, h2, h3, h4, h5 { font-family: "geomanistregular", sans-serif; font-weight: bold; }
 
 h1 { margin-bottom: 25px; }
 
@@ -362,6 +362,6 @@ h1 { margin-bottom: 25px; }
 /* 2 columns */
 .grid-item--width2 { width: 90%; }
 
-@media screen and (max-width: 800px) { .grid-sizer, .grid-item { width: 90%; padding: 20px; } /* 2 columns */ .grid-item--width2 { width: 90%; } }
+@media screen and (max-width: 800px) { .grid-sizer, .grid-item { width: 90%; padding: 20px; } /* 2 columns */ .grid-item--width2 { width: 90%; } .row { flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */

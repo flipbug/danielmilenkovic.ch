@@ -2,71 +2,93 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .site-title {
-    font-family: 'geomanistregular', sans-serif;
-    font-weight: normal;
-    letter-spacing: 1px;
+  font-family: "geomanistregular", sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 .site-nav {
-    font-family: 'geomanistregular', sans-serif;
-    font-weight: 400;
-    font-size: 1.25rem;
+  font-family: "geomanistregular", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'geomanistregular', sans-serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "geomanistregular", sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.post-link, .post-title, .page-heading {
-    font-size: 3rem;
+.post-link,
+.post-title,
+.page-heading {
+  font-size: 3rem;
 }
 
 .post-list .post-link {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    padding: 10px;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
-  .two-images img {
-      max-height: 550px;
-  }
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 10px;
+}
 
-  .post-content a, .read-more, footer a{
-      color: #ff6123 !important;
-  }
+.two-images img {
+  max-height: 550px;
+}
 
-.portfolio-content{
-    max-width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
+.post-content a,
+.read-more,
+footer a {
+  color: #ff6123 !important;
+}
+
+.portfolio-content {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .grid-sizer,
-.grid-item { width: 45%; padding: 20px }
+.grid-item {
+  width: 45%;
+  padding: 20px;
+}
 /* 2 columns */
-.grid-item--width2 { width: 90%; }
+.grid-item--width2 {
+  width: 90%;
+}
 
 @include media-query($on-laptop) {
-    .grid-sizer,
-    .grid-item { width: 90%; padding: 20px }
-    /* 2 columns */
-    .grid-item--width2 { width: 90%; }
-}    
+  .grid-sizer,
+  .grid-item {
+    width: 90%;
+    padding: 20px;
+  }
+  /* 2 columns */
+  .grid-item--width2 {
+    width: 90%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}

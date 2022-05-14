@@ -23,7 +23,7 @@ So after a while I finally got the encouragement to get into painting. And what 
     </div>
 </div>
 
-I realized what I needed wasn’t the right brush but patience and trust into myself. I decided to only use a single basic brush, since the brush doesn't really matter to be honest (Sinix did an excellent ["youtube video"](https://www.youtube.com/watch?v=-Nt9fa8jZUE) on that topic). And so I kept on painting and each time I felt stuck or frustrated I changed the negative voice in my head with an encouraging one.  
+I realized what I needed wasn’t the right brush but patience and trust into myself. I decided to only use a single basic brush, since the brush doesn't really matter to be honest (Sinix did an excellent [youtube video](https://www.youtube.com/watch?v=-Nt9fa8jZUE) on that topic). And so I kept on painting and each time I felt stuck or frustrated I changed the negative voice in my head with an encouraging one.  
 
 {% include image.html url="/assets/images/leyendecker.png" description="Finished master study" %}
 
