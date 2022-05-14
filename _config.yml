@@ -21,13 +21,13 @@
 title: Daniel Milenkovic
 email: danielmilenkovic@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog about art and my journey on finding my authentic self.
+  Freelance Illustrator. Open for work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://danielmilenkovic.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 name: Daniel Milenkovic
-instagram: flipbug 
+instagram: danielmilenkovic.art 
 
 show_excerpts: true
 # Build settings
@@ -41,11 +41,13 @@ plugins:
 author: Daniel Milenkovic
 
 header_pages:
+ - index.md
+ - blog.md
  - about.md
 
 social:
   links:
-    - https://instagram.com/flipbug
+    - https://instagram.com/danielmilenkovic.art
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -341,7 +341,11 @@ table td { border: 1px solid #404040; }
 
 h1, h2, h3, h4, h5 { font-family: 'geomanistregular', sans-serif; font-weight: bold; }
 
-.post-link, .post-title { font-size: 3rem; }
+h1 { margin-bottom: 25px; }
+
+.post-link, .post-title, .page-heading { font-size: 3rem; }
+
+.post-list .post-link { font-size: 2.5rem; }
 
 .row { display: flex; flex-direction: row; flex-wrap: wrap; width: 100%; }
 
@@ -350,5 +354,14 @@ h1, h2, h3, h4, h5 { font-family: 'geomanistregular', sans-serif; font-weight: b
 .two-images img { max-height: 550px; }
 
 .post-content a, .read-more, footer a { color: #ff6123 !important; }
+
+.portfolio-content { max-width: 1400px; margin-right: auto; margin-left: auto; }
+
+.grid-sizer, .grid-item { width: 45%; padding: 20px; }
+
+/* 2 columns */
+.grid-item--width2 { width: 90%; }
+
+@media screen and (max-width: 800px) { .grid-sizer, .grid-item { width: 90%; padding: 20px; } /* 2 columns */ .grid-item--width2 { width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
