@@ -263,6 +263,4 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 
 @media screen and (min-width: 800px) { .post-content h3 { font-size: 1.625rem; } }
 
-.post-content img { max-width: 800px; }
-
 /*# sourceMappingURL=style.css.map */
