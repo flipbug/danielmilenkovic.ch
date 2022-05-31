@@ -1,0 +1,220 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/**
+ * Home
+ */
+.home-introduction {
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+
+    @media (min-width: $on-laptop) {
+        h1 {
+            font-size: 3.75rem;
+            margin-bottom: 60px;
+        }
+
+        .content {
+            padding-top: 60px;
+        }
+    }
+}
+
+.home-services {
+    margin-bottom: 100px;
+}
+
+.home-services h2,
+.home-experience h2 {
+    margin-bottom: 30px;
+}
+
+.image-column img {
+    display: block;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    gap: 2rem 2rem;
+
+    @media (max-width: $on-medium) {
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+
+.work-logo {
+    display: flex;
+    align-items: center;
+    background-color: $accent-color;
+    height: 200px;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(334deg, #57b6c5 0%, $accent-color 100%);
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    @media (max-width: $on-medium) {
+        height: 120px;
+    }
+}
+
+.home-call-to-action {
+    background: linear-gradient(160deg, rgb(63, 219, 175) 0%, $accent-color 51%, rgba(0, 239, 255, 1) 100%);
+    margin-top: 50px;
+    margin-bottom: -30px;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        color: $background-color;
+        font-size: 1.25rem;
+        display: flex;
+
+        padding-bottom: 20px;
+    }
+
+    .button {
+        display: flex;
+        color: $accent-color;
+        background-color: $background-color;
+        border-color: $background-color;
+
+        &:hover {
+            color: $text-color;
+        }
+    }
+}
+
+/**
+ * Portfolio
+ */
+.portfolio-content {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
+
+.portfolio-grid {
+    columns: 2 300px;
+    column-gap: 2rem;
+
+    figure {
+        display: inline-block;
+    }
+}
+
+/**
+ * Blog
+ */
+.post-link,
+.post-title,
+.page-heading {
+    font-size: 3rem;
+}
+
+.post-list .post-link {
+    font-size: 2rem;
+}
+
+.two-images img {
+    max-height: 550px;
+}
+
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $brand-color;
+}
+
+.post-link {
+    display: block;
+    @include relative-font-size(1.5);
+}
+
+/**
+ * Posts
+ */
+.page-content {
+    padding: $spacing-unit 0;
+    flex: 1 0 auto;
+}
+
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+    @include relative-font-size(2.625);
+    letter-spacing: -1px;
+    line-height: 1.15;
+
+    @media screen and (min-width: $on-large) {
+        @include relative-font-size(2.625);
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h1,
+    h2,
+    h3 {
+        margin-top: $spacing-unit * 2;
+    }
+    h4,
+    h5,
+    h6 {
+        margin-top: $spacing-unit;
+    }
+
+    h2 {
+        @include relative-font-size(1.75);
+
+        @media screen and (min-width: $on-large) {
+            @include relative-font-size(2);
+        }
+    }
+
+    h3 {
+        @include relative-font-size(1.375);
+
+        @media screen and (min-width: $on-large) {
+            @include relative-font-size(1.625);
+        }
+    }
+
+    h4 {
+        @include relative-font-size(1.25);
+    }
+
+    h5 {
+        @include relative-font-size(1.125);
+    }
+    h6 {
+        @include relative-font-size(1.0625);
+    }
+}
