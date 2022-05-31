@@ -21,7 +21,7 @@
 title: Daniel Milenkovic
 email: danielmilenkovic@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Freelance Illustrator. Open for work.
+  Freelance Full Stack Developer & Illustrator. Open for work.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://danielmilenkovic.ch" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -37,11 +37,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
 author: Daniel Milenkovic
 
 header_pages:
- - index.md
+ - illustrations.md
  - blog.md
  - about.md
 

@@ -91,6 +91,11 @@ ul, ol {
 }
 
 li {
+
+    &::marker {
+        color: $accent-color;
+        }
+
   > ul,
   > ol {
     margin-bottom: 0;

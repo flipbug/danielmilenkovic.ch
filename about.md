@@ -7,18 +7,31 @@ permalink: /about/
 
 <div class='row two-images'>
     <div class='column'>
-{% include image.html url="/assets/images/me.png" description="" %}
+{% include image.html url="/assets/images/me.png" description="One of my earlier self portraits" %}
     </div>
     <div class='column'>
+        <p>Hi, my name is Daniel Milenkovic, currently based in Winterthur, Switzerland.</p>
 
-<p>Hi, my name is Daniel Milenkovic. I am a freelance illustrator based in Winterthur, Switzerland.</p>
+        <p>I started this life in 1993 and from early on wished to become an architect. Plans change and during school I developed a proficiency for code, which led me into the world of programming and obtaining a <a href="https://ba-pub.engineering.zhaw.ch/BA_WebPublication/Flyer.pdf?version=Bachelorarbeit2019&code=BA19_wele_04&language=de" target="_blank"> bachelor's degree in Computer Science</a>.</p>
 
-<p>I got into this world in 1993 and from early on wished to become an architect. Plans change and after finishing school I started to work as a web developer, while doing a Bachelor's in Computer Science. I've worked as a Software Engineer for roughly 10 years before deciding to transition into a career in illustration. My interests range from mythology to skateboarding and I love reading comics.</p>
+        <p>My programming career has led me through the following places so far, before deciding to go freelance:</p>
 
-<p>I created this website to showcase my work and to reflect on my thoughts. The code is open source and hosted on <a href="https://github.com/flipbug/danielmilenkovic.ch" target="_blank">github</a>.</p>
+        <ul>
+            <li>2011 - 2011 Internship at <a href="https://strichpunkt.ch" target="_blank">Strichpunkt</a></li>
+            <li>2012 - 2015 Web Developer at <a href="https://snowflake.ch" target="_blank">Snowflake</a></li>
+            <li>2015 - 2016 Web Developer at <a href="https://notch-interactive.com" target="_blank">Notch Interactive</a></li>
+            <li>2016 - 2017 Python/Django Developer at <a href="https://curve-interactions.com" target="_blank">Curve Interactions</a></li>
+            <li>2017 - 2022 Software Engineer at <a href="https://digitec.ch" target="_blank">Digitec Galaxus</a></li>
+        </ul>
 
-<p>Feel free to contact my via <a href="mailto:danielmilenkovic@protonmail.com">email</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hear from you.</p>
- </div>
+        <p>Near the end of 2020 <a href="/blog/2021/09/10/learning-to-draw">I rediscovered my passion for art</a>, which ultimately led to the decision to leave classical employment and to fully own my time. I'm painting mostly digitally using procreate, while developing my skills in more traditional oil painting.</p>
+
+        <p>Besides art and programming my interests range from mythology to skateboarding and especially reading comics.</p>
+
+        <p>Feel free to contact my directly via <a href="mailto:danielmilenkovic@protonmail.com">danielmilenkovic@protonmail.com</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hear from you.</p>
+<hr>
+        <p>This website is open source and hosted on <a href="https://github.com/flipbug/danielmilenkovic.ch" target="_blank">github</a>.</p>
+    </div>
 </div>
 
 

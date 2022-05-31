@@ -1,94 +1,265 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-.site-title {
-  font-family: "geomanistregular", sans-serif;
-  font-weight: normal;
-  letter-spacing: 1px;
-}
-
-.site-nav {
-  font-family: "geomanistregular", sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "geomanistregular", sans-serif;
-  font-weight: bold;
+    font-family: "geomanistregular", sans-serif;
+    font-weight: bold;
+
+    a,
+    a:visited {
+        color: $text-color;
+    }
 }
 
 h1 {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
+
+h2 {
+    font-size: 2rem;
+}
+
+.site-title {
+    font-family: "geomanistregular", sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+
+    &:hover {
+        color: $accent-color;
+        text-decoration: none;
+    }
+}
+
+.site-nav {
+    font-family: "geomanistregular", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+    a:hover {
+        color: $accent-color;
+        text-decoration: none;
+    }
+}
+
+.font-semibold {
+    font-family: "geomanistregular", sans-serif;
+    font-weight: 500;
+}
+
+.font-normal {
+    font-family: "geomanistregular", sans-serif;
+    font-weight: normal;
+}
+
+.font-bold {
+    font-family: "geomanistregular", sans-serif;
+    font-weight: bold;
+}
+
+// Grid
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+// Forms
+
+// Button styling taken from the Bulma CSS Framework
+button,
+.button {
+    background-color: $button-color;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    align-items: center;
+    border: 1px dbdbdb solid transparent;
+    border-radius: 0.375em;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+
+    &:hover {
+        background: darken($color: $button-color, $amount: 20);
+        text-decoration: none;
+    }
+}
+
+button.is-primary,
+.button.is-primary {
+    background-color: $accent-color;
+    border-color: transparent;
+    color: #fff;
+    font-weight: bold;
+
+    &:hover {
+        background: darken($color: $accent-color, $amount: 10);
+        text-decoration: none;
+    }
+}
+
+// Home styles
+
+.home-introduction {
+    h1 {
+        font-size: 3.75rem;
+        margin-bottom: 60px;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+
+    .button {
+        margin-top: 60px;
+    }
+}
+
+.home-services {
+    margin-bottom: 100px;
+}
+
+.home-services h2,
+.home-experience h2 {
+    margin-bottom: 30px;
+}
+
+.image-column img {
+    display: block;
+    margin: 0 auto;
+}
+
+.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        gap: 2rem 2rem;
+}
+
+.work-logo {
+    display: flex;
+    align-items: center;
+    background-color: $accent-color;
+    height: 200px;
+    justify-content: center;
+    border-radius: 5px;
+    background: linear-gradient(334deg, #57b6c5 0%, $accent-color 100%);
+
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    
+}
+
+.home-call-to-action {
+    background: linear-gradient(160deg, rgb(63, 219, 175) 0%, $accent-color 51%, rgba(0, 239, 255, 1) 100%);
+    margin-top: 50px;
+    margin-bottom: -30px;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        color: $background-color;
+        font-size: 1.25rem;
+        display: flex;
+
+        padding-bottom: 20px;
+    }
+
+    .button {
+        display: flex;
+        color: $accent-color;
+        background-color: $background-color;
+        border-color: $background-color;
+
+        &:hover {
+            color: $text-color;
+        }
+    }
+}
+
+// Blog styles
 
 .post-link,
 .post-title,
 .page-heading {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .post-list .post-link {
-  font-size: 2.5rem;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  padding: 10px;
+    font-size: 2.5rem;
 }
 
 .two-images img {
-  max-height: 550px;
+    max-height: 550px;
 }
 
-.post-content a,
-.read-more,
-footer a {
-  color: #ff6123 !important;
-}
+// Portfolio styles
 
 .portfolio-content {
-  max-width: 1400px;
-  margin-right: auto;
-  margin-left: auto;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
 }
 
-.grid-sizer,
-.grid-item {
-  width: 45%;
-  padding: 20px;
+.portfolio-grid {
+    columns: 2 300px;
+    column-gap: 2rem;
+
+    figure {
+      display: inline-block;
+    }       
 }
+
 /* 2 columns */
 .grid-item--width2 {
-  width: 90%;
+    width: 90%;
 }
 
 @include media-query($on-laptop) {
-  .grid-sizer,
-  .grid-item {
-    width: 90%;
-    padding: 20px;
-  }
-  /* 2 columns */
-  .grid-item--width2 {
-    width: 90%;
-  }
+    .grid-sizer,
+    .grid-item {
+        width: 90%;
+        padding: 20px;
+    }
+    /* 2 columns */
+    .grid-item--width2 {
+        width: 90%;
+    }
 
-  .row {
-    flex-direction: column;
-  }
+    .row {
+        flex-direction: column;
+    }
 }
