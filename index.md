@@ -21,7 +21,7 @@ permalink: /
             
             <p>Furthermore translating my problem solving skills into art, I can bring your ideas to life <a href="/illustrations">visually</a>.</p>
 
-            <a class="button is-primary" href="mailto:{{ site.email }}" target="_blank">Let's get in touch</a>
+            <a class="button is-primary small-hidden" href="mailto:{{ site.email }}" target="_blank">Let's get in touch</a>
         </div>
 
         <div class="column image-column"><img src="/assets/images/Me_1.png" width=400 /></div>
@@ -30,7 +30,7 @@ permalink: /
 
 <div class="home-services wrapper ">
     <div class="row">    
-        <div class="column image-column"><img src="/assets/images/Me_2.png" width=400/></div>
+        <div class="column image-column small-hidden"><img src="/assets/images/Me_2.png" width=400/></div>
 
         <div class="column">
         <h2>Services</h2>
@@ -46,7 +46,11 @@ permalink: /
         </ul>
         <p>For illustration work I can do general commissions, spot illustrations, covers, editorial and portraits. Have a look at my <a href="/illustrations">portfolio</a> or <a href="https://www.instagram.com/danielmilenkovic.art/" target="_blank">instagram</a> to see samples of my work.</p>
         </div>
+
+        <div class="column image-column small-only"><img src="/assets/images/Me_2.png" width=400/></div>
+
     </div>
+
 </div>
 
 <div class="home-experience wrapper ">

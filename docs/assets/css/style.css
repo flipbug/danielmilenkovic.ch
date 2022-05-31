@@ -371,11 +371,11 @@ button.is-primary, .button.is-primary { background-color: #0ace97; border-color:
 
 button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-decoration: none; }
 
-.home-introduction h1 { font-size: 3.75rem; margin-bottom: 60px; }
+.home-introduction h1 { font-size: 2.75rem; }
 
-.home-introduction .content { padding-top: 60px; }
+.home-introduction .button { margin-top: 30px; }
 
-.home-introduction .button { margin-top: 60px; }
+@media (min-width: 800px) { .home-introduction h1 { font-size: 3.75rem; margin-bottom: 60px; } .home-introduction .content { padding-top: 60px; } }
 
 .home-services { margin-bottom: 100px; }
 
@@ -385,9 +385,13 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 
 .grid { display: grid; grid-template-columns: repeat(2, 200px); justify-content: center; gap: 2rem 2rem; }
 
+@media (max-width: 600px) { .grid { grid-template-columns: repeat(1, 250px); } }
+
 .work-logo { display: flex; align-items: center; background-color: #0ace97; height: 200px; justify-content: center; border-radius: 5px; background: linear-gradient(334deg, #57b6c5 0%, #0ace97 100%); }
 
 .work-logo:hover { opacity: 0.8; }
+
+@media (max-width: 600px) { .work-logo { height: 120px; } }
 
 .home-call-to-action { background: linear-gradient(160deg, #3fdbaf 0%, #0ace97 51%, #00efff 100%); margin-top: 50px; margin-bottom: -30px; padding: 50px 0; display: flex; justify-content: center; flex-direction: column; }
 
@@ -409,9 +413,10 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 
 .portfolio-grid figure { display: inline-block; }
 
-/* 2 columns */
-.grid-item--width2 { width: 90%; }
+@media screen and (max-width: 600px) { .row { flex-direction: column; } }
 
-@media screen and (max-width: 800px) { .grid-sizer, .grid-item { width: 90%; padding: 20px; } /* 2 columns */ .grid-item--width2 { width: 90%; } .row { flex-direction: column; } }
+@media (min-width: 600px) { .small-only { display: none; } }
+
+@media (max-width: 600px) { .small-hidden { display: none; } }
 
 /*# sourceMappingURL=style.css.map */

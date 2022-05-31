@@ -128,16 +128,22 @@ button.is-primary,
 
 .home-introduction {
     h1 {
-        font-size: 3.75rem;
-        margin-bottom: 60px;
-    }
-
-    .content {
-        padding-top: 60px;
+        font-size: 2.75rem;
     }
 
     .button {
-        margin-top: 60px;
+        margin-top: 30px;
+    }
+
+    @media (min-width: $on-laptop) {
+        h1 {
+            font-size: 3.75rem;
+            margin-bottom: 60px;
+        }
+
+        .content {
+            padding-top: 60px;
+        }
     }
 }
 
@@ -156,10 +162,15 @@ button.is-primary,
 }
 
 .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 200px);
-        justify-content: center;
-        gap: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    gap: 2rem 2rem;
+
+    @media (max-width: $on-medium) {
+        grid-template-columns: repeat(1, 250px);
+
+    }
 }
 
 .work-logo {
@@ -171,12 +182,13 @@ button.is-primary,
     border-radius: 5px;
     background: linear-gradient(334deg, #57b6c5 0%, $accent-color 100%);
 
-
     &:hover {
         opacity: 0.8;
     }
 
-    
+    @media (max-width: $on-medium) {
+        height: 120px;
+    }
 }
 
 .home-call-to-action {
@@ -239,27 +251,24 @@ button.is-primary,
     column-gap: 2rem;
 
     figure {
-      display: inline-block;
-    }       
+        display: inline-block;
+    }
 }
 
-/* 2 columns */
-.grid-item--width2 {
-    width: 90%;
-}
-
-@include media-query($on-laptop) {
-    .grid-sizer,
-    .grid-item {
-        width: 90%;
-        padding: 20px;
-    }
-    /* 2 columns */
-    .grid-item--width2 {
-        width: 90%;
-    }
-
+@include media-query($on-medium) {
     .row {
         flex-direction: column;
+    }
+}
+
+@media (min-width: $on-medium) {
+    .small-only {
+        display: none;
+    }
+}
+
+@media (max-width: $on-medium) {
+    .small-hidden {
+        display: none;
     }
 }
