@@ -107,6 +107,11 @@ table td { border: 1px solid #0ace97; }
 
 @media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
 
+/** Page  */
+.page-content { padding: 30px 0; flex: 1 0 auto; }
+
+.dense-width { max-width: calc(800px - (30px)); }
+
 /** Site header */
 .site-header { padding-top: 30px; min-height: 90px; line-height: 60.75px; position: relative; }
 
@@ -229,7 +234,7 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 
 .post-list .post-link { font-size: 2rem; }
 
-.two-images img { max-height: 550px; }
+.two-images img { max-height: 500px; }
 
 .post-list { margin-left: 0; list-style: none; }
 
@@ -239,9 +244,7 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 
 .post-link { display: block; font-size: 1.5rem; }
 
-/** Posts */
-.page-content { padding: 30px 0; flex: 1 0 auto; }
-
+/** Post */
 .post-header { margin-bottom: 30px; }
 
 .post-title, .post-content h1 { font-size: 2.625; letter-spacing: -1px; line-height: 1.15; }
@@ -259,5 +262,7 @@ button.is-primary:hover, .button.is-primary:hover { background: #089d73; text-de
 .post-content h3 { font-size: 1.375rem; }
 
 @media screen and (min-width: 800px) { .post-content h3 { font-size: 1.625rem; } }
+
+.post-content img { max-width: 800px; }
 
 /*# sourceMappingURL=style.css.map */

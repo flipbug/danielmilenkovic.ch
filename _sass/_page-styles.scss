@@ -131,7 +131,7 @@
 }
 
 .two-images img {
-    max-height: 550px;
+    max-height: 500px;
 }
 
 
@@ -154,13 +154,8 @@
 }
 
 /**
- * Posts
+ * Post
  */
-.page-content {
-    padding: $spacing-unit 0;
-    flex: 1 0 auto;
-}
-
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -200,5 +195,9 @@
         @media screen and (min-width: $on-large) {
             font-size: 1.625rem;
         }
+    }
+
+    img {
+        max-width: 800px;
     }
 }

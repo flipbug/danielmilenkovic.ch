@@ -1,4 +1,16 @@
 /**
+ * Page 
+ */
+.page-content {
+    padding: $spacing-unit 0;
+    flex: 1 0 auto;
+}
+
+.dense-width {
+    max-width: calc(#{$dense-content-width} - (#{$spacing-unit}));
+}
+
+/**
  * Site header
  */
 .site-header {
