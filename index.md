@@ -65,7 +65,7 @@ permalink: /
                 <li>Miele</li>
                 <li>Kitag Cinemas</li>
                 <li>Sonova</li>
-                <li>Inselsptial Bern</li>
+                <li>Inselspital Bern</li>
                 <li>Kanton Solothurn</li>
                 <li>and many more...</li>
             </ul>
