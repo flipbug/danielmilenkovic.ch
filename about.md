@@ -24,11 +24,11 @@ permalink: /about/
             <li>2017 - 2022 Software Engineer at <a href="https://digitec.ch" target="_blank">Digitec Galaxus</a></li>
         </ul>
 
-        <p>Near the end of 2020 <a href="/blog/2021/09/10/learning-to-draw">I rediscovered my passion for art</a>, which ultimately led to the decision to leave classical employment and to fully own my time. I'm painting mostly digitally using procreate, while developing my skills in more traditional oil painting.</p>
+        <p>Near the end of 2020 <a href="/blog/2021/09/10/learning-to-draw">I rediscovered my passion for art</a>, which ultimately led to the decision to leave classical employment and be more flexible with my time. I'm painting mostly digitally using procreate, while developing my skills in more traditional oil painting.</p>
 
         <p>Besides art and programming my interests range from mythology to skateboarding and especially reading comics.</p>
 
-        <p>Feel free to contact my directly via <a href="mailto:{{ site.email }}">{{ site.email }}</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hear from you.</p>
+        <p>Feel free to contact me directly via <a href="mailto:{{ site.email }}">{{ site.email }}</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hearing from you.</p>
 <hr>
         <p>This website is open source and hosted on <a href="https://github.com/flipbug/danielmilenkovic.ch" target="_blank">github</a>.</p>
     </div>
