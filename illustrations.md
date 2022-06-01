@@ -5,7 +5,7 @@
 layout: default
 title: Illustrations
 class: Illustrations
-permalink: Illustrations/
+permalink: illustrations/
 ---
 
 <div class="wrapper">
