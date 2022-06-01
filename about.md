@@ -28,7 +28,7 @@ permalink: /about/
 
         <p>Besides art and programming my interests range from mythology to skateboarding and especially reading comics.</p>
 
-        <p>Feel free to contact my directly via <a href="mailto:danielmilenkovic@protonmail.com">danielmilenkovic@protonmail.com</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hear from you.</p>
+        <p>Feel free to contact my directly via <a href="mailto:{{ site.email }}">{{ site.email }}</a> or via <a href="https://instagram.com/danielmilenkovic.art" target="_blank">instagram</a>. I'm looking forward to hear from you.</p>
 <hr>
         <p>This website is open source and hosted on <a href="https://github.com/flipbug/danielmilenkovic.ch" target="_blank">github</a>.</p>
     </div>
