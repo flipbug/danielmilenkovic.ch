@@ -14,6 +14,10 @@ permalink: illustrations/
 
 <div class="portfolio-content">
 
+    {% include image.html url="/assets/images/portfolio/SK_2_small.png" description="" %}
+
+    {% include image.html url="/assets/images/portfolio/skatedeck001.png" description="" %}
+
     <div class="portfolio-grid">
         {% include image.html url="/assets/images/portfolio/Rembrandt.png" description="" %}
 
@@ -29,6 +33,5 @@ permalink: illustrations/
 
     </div>
 
-    {% include image.html url="/assets/images/portfolio/skatedeck001.png" description="" %}
 
 </div>
