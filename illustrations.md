@@ -16,22 +16,25 @@ permalink: illustrations/
 
     {% include image.html url="/assets/images/portfolio/SK_2_small.png" description="" %}
 
-    {% include image.html url="/assets/images/portfolio/skatedeck001.png" description="" %}
 
     <div class="portfolio-grid">
+        {% include image.html url="/assets/images/portfolio/Pandora.png" description="" %}
+
         {% include image.html url="/assets/images/portfolio/Rembrandt.png" description="" %}
 
         {% include image.html url="/assets/images/portfolio/Doom.png" description="" %}
 
-        {% include image.html url="/assets/images/portfolio/awaken.png" description="" %}
-
         {% include image.html url="/assets/images/portfolio/AB_Team.png" description="" %}
+
+        {% include image.html url="/assets/images/portfolio/awaken.png" description="" %}
 
         {% include image.html url="/assets/images/portfolio/Reichenbach.png" description="" %}
 
         {% include image.html url="/assets/images/portfolio/snow.png" description="" %}
 
     </div>
+
+    {% include image.html url="/assets/images/portfolio/skatedeck001.png" description="" %}
 
 
 </div>
