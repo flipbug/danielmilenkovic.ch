@@ -34,7 +34,4 @@ permalink: illustrations/
 
     </div>
 
-    {% include image.html url="/assets/images/portfolio/skatedeck001.png" description="" %}
-
-
 </div>
