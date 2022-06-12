@@ -20,13 +20,13 @@ permalink: illustrations/
     <div class="portfolio-grid">
         {% include image.html url="/assets/images/portfolio/Pandora.png" description="" %}
 
-        {% include image.html url="/assets/images/portfolio/Rembrandt.png" description="" %}
+        {% include image.html url="/assets/images/portfolio/AB_Team.png" description="" %}
 
         {% include image.html url="/assets/images/portfolio/Doom.png" description="" %}
 
-        {% include image.html url="/assets/images/portfolio/AB_Team.png" description="" %}
+        {% include image.html url="/assets/images/portfolio/Rebirth.png" description="" %}
 
-        {% include image.html url="/assets/images/portfolio/awaken.png" description="" %}
+        {% include image.html url="/assets/images/portfolio/Rembrandt.png" description="" %}
 
         {% include image.html url="/assets/images/portfolio/Reichenbach.png" description="" %}
 
