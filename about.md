@@ -7,7 +7,7 @@ permalink: /about/
 
 <div class='row two-images'>
     <div class='column'>
-{% include image.html url="/assets/images/me.png" description="One of my earlier self portraits" %}
+{% include image.html url="/assets/images/me.png" description="One of my early self portraits" %}
     </div>
     <div class='column'>
         <p>Hi, my name is Daniel Milenkovic, currently based in Winterthur, Switzerland.</p>

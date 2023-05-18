@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Home
 class: home
@@ -70,7 +67,7 @@ permalink: /
                 <li>and many more...</li>
             </ul>
 
-            <p>Over the years I've worked professionally with many different technologies like Django, Asp.Net, Typo3, Wordpress. I'm fluent in C#, Python, PHP and Javascript although I'm always happy to learn and adapt depending on the needs of the project.</p>
+            <p>Over the years I've worked professionally with many different technologies like React, Svelte, Django, Asp.Net, Typo3, Wordpress. I'm fluent in Javascript, Python, C# and PHP although I'm always happy to learn and adapt depending on the needs of the project.</p>
             <p><a href="about/">More about me</a></p>
         </div>
 
